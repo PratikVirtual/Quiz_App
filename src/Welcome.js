@@ -11,13 +11,6 @@ const Welcome = ({ navigation }) => {
         }}>
             <Header />
             <View style={styles.container}>
-                {/* <View style={styles.iconWrapper}>
-                    <Image style={styles.Icon1}
-                        source={require('../assets/Icon1.png')}
-                        resizeMode="contain"
-                    />
-                </View> */}
-                {/* <View style={{ flex: 1 }}><LottieView source={require('../assets/welcome.json')} autoPlay loop /></View> */}
                 <LottieView source={require('../assets/welcome.json')} autoPlay loop />
             </View>
             <TouchableOpacity
@@ -33,13 +26,9 @@ export default Welcome
 
 const styles = StyleSheet.create({
     container: {
-        // flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        height: '75%',
-        // paddingHorizontal: 16
-        // padding: 20
-        // backgroundColor: '#FFFFFF'
+        height: '75%',     
     },
     iconWrapper: {
         justifyContent: 'center',
