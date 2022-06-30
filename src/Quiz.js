@@ -1,6 +1,5 @@
 import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 import React, { useEffect, useState } from 'react';
-// import Question from '../Components/Question';
 import LottieView from 'lottie-react-native'
 
 
@@ -93,11 +92,6 @@ const Quiz = ({ navigation }) => {
                     </View>
 
                     <View style={styles.buttonsWrapper}>
-
-                        {/* <TouchableOpacity style={styles.buttonWrapper}>
-                            <Text>PREV</Text>
-                        </TouchableOpacity> */}
-
                         {ques !== 9 &&
                             <TouchableOpacity
                                 onPress={handleNextPress}
