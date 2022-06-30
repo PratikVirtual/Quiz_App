@@ -1,7 +1,6 @@
 
 import { NavigationContainer } from '@react-navigation/native';
 import React from 'react';
-// import type { Node } from 'react';
 import {
   SafeAreaView,
   ScrollView,
@@ -23,13 +22,6 @@ const App = () => {
     <NavigationContainer>
       <MyStack />
     </NavigationContainer>
-    // <View style={styles.Container}>
-    //   {/* <Quiz /> */}
-    //   <Welcome />
-    // </View>
-
-
-
   );
 };
 
@@ -46,9 +38,4 @@ const styles = StyleSheet.create({
 
 export default App;
 
-// <View style={styles.Container}>
 
-// <Welcome />
-{/* <Quiz /> */ }
-{/* <Result /> */ }
-    // </View>
