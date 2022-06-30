@@ -164,5 +164,3 @@ const styles = StyleSheet.create({
     }
 
 });
-
-// {isLoading ? <View style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' }}><Text style={{ fontSize: 32, fontWeight: '700' }}> LOADING...</Text></View> : questions && (
