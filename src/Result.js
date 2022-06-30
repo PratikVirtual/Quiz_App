@@ -5,8 +5,6 @@ const Result = ({ navigation, route }) => {
     const { score } = route.params
     // console.log(params)
 
-    // const resultIcon = score > 10 ?  : "https://cdni.iconscout.com/illustration/premium/thumb/business-rating-and-review-2357705-2004278.png"
-    // const resultIcon = score > 10 ? "https://cdni.iconscout.com/illustration/premium/th…-for-bad-academic-performance-4743239-3951696.png" : "https://cdni.iconscout.com/illustration/premium/thumb/business-rating-and-review-2357705-2004278.png"
     const resultIcon = score > 10 ? "https://cdni.iconscout.com/illustration/premium/thumb/men-celebrating-victory-4587301-3856211.png" : "https://cdni.iconscout.com/illustration/free/thumb/concept-about-business-failure-1862195-1580189.png"
 
 
@@ -24,12 +22,9 @@ const Result = ({ navigation, route }) => {
 
                 <Image style={styles.Icon1}
                     source={{
-                        // uri: 'https://cdni.iconscout.com/illustration/premium/thumb/team-victory-5303612-4423551.png',
                         uri: resultIcon,
-                        // uri: "https://cdnl.iconscout.com/lottie/premium/thumb/error-500-4876285-4055543.mp4"
                     }} />
 
-                {/* <video loading="lazy" muted="muted" src="https://cdnl.iconscout.com/lottie/premium/thumb/error-500-4876285-4055543.mp4" width="250" height="250" type="video/mp4" autoplay="autoplay" loop="loop"></video> */}
             </View>
 
             <View>
